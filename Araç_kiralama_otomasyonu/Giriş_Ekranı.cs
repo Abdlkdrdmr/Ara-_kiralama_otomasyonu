@@ -12,12 +12,12 @@ using System.Data.SqlClient;
 
 namespace Araç_kiralama_otomasyonu
 {
-    public partial class Form1 : Form
+    public partial class Giriş_Ekranı : Form
     {
         SqlConnection con;
         SqlDataReader dr;
         SqlCommand cmd;
-        public Form1()
+        public Giriş_Ekranı()
         {
             InitializeComponent();
         }
@@ -34,7 +34,10 @@ namespace Araç_kiralama_otomasyonu
             dr= cmd.ExecuteReader();
             if (dr.Read())
             {
-                MessageBox.Show("Tebrikler Giriş Başarılı");
+                Anasayfa geçiş =new Anasayfa();
+                geçiş.Show();
+                this.Hide();
+
             }
             else
             {

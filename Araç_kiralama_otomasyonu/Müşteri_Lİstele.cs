@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Araç_kiralama_otomasyonu
 {
-    public partial class Anasayfa : Form
+    public partial class Müşteri_Lİstele : Form
     {
-        public Anasayfa()
+        public Müşteri_Lİstele()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Müşteri_Ekle_sil geçmek = new Müşteri_Ekle_sil();
-            geçmek.Show();
-            this.Hide();
         }
     }
 }

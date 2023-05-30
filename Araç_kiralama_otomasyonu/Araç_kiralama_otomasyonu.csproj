@@ -51,6 +51,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Araç_KİRALAMADataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Müşteri_Lİstele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Müşteri_Lİstele.Designer.cs">
+      <DependentUpon>Müşteri_Lİstele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Müşteri_Ekle_sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Müşteri_Ekle_sil.Designer.cs">
+      <DependentUpon>Müşteri_Ekle_sil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Giriş_Ekranı.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Giriş_Ekranı.resx">
       <DependentUpon>Giriş_Ekranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Müşteri_Ekle_sil.resx">
+      <DependentUpon>Müşteri_Ekle_sil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

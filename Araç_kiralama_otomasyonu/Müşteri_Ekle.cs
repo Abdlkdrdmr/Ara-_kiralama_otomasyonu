@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Araç_kiralama_otomasyonu
 {
-    public partial class Müşteri_Ekle_sil : Form
+    public partial class Müşteri_Ekle : Form
     {
-        public Müşteri_Ekle_sil()
+        public Müşteri_Ekle()
         {
             InitializeComponent();
         }
@@ -23,6 +23,11 @@ namespace Araç_kiralama_otomasyonu
             Anasayfa getir = new Anasayfa();
             getir.Show();
             this.Hide();
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

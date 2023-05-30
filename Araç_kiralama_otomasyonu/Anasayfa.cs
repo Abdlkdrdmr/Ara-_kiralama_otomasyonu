@@ -19,8 +19,15 @@ namespace Araç_kiralama_otomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Müşteri_Ekle_sil geçmek = new Müşteri_Ekle_sil();
+            Müşteri_Ekle geçmek = new Müşteri_Ekle();
             geçmek.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Müşteri_Lİstele geçmek2=new Müşteri_Lİstele();
+            geçmek2.Show();
             this.Hide();
         }
     }

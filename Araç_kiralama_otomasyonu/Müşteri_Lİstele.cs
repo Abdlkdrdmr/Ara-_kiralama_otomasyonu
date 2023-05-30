@@ -16,5 +16,12 @@ namespace Araç_kiralama_otomasyonu
         {
             InitializeComponent();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Anasayfa getir2 = new Anasayfa();
+            getir2.Show();
+            this.Hide();
+        }
     }
 }

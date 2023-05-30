@@ -346,17 +346,18 @@
             this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(965, 32);
+            this.label14.Location = new System.Drawing.Point(977, 41);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(70, 15);
             this.label14.TabIndex = 47;
             this.label14.Text = "Menüye Dön";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(980, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(992, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(36, 32);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

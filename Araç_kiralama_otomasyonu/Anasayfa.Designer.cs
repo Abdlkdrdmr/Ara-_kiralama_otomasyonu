@@ -50,7 +50,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(187, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(862, 448);
+            this.panel2.Size = new System.Drawing.Size(870, 485);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox1
@@ -59,7 +59,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(862, 448);
+            this.pictureBox1.Size = new System.Drawing.Size(870, 485);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -75,7 +75,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(187, 448);
+            this.panel1.Size = new System.Drawing.Size(187, 485);
             this.panel1.TabIndex = 0;
             // 
             // button1
@@ -112,6 +112,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Araç Ekle-Sil";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -123,6 +124,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "Sözleşme";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox2
             // 
@@ -138,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1049, 448);
+            this.ClientSize = new System.Drawing.Size(1057, 485);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;

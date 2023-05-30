@@ -30,5 +30,19 @@ namespace Araç_kiralama_otomasyonu
             geçmek2.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Araç_EKLE_SİL geçmek3=new Araç_EKLE_SİL();
+            geçmek3.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Sözleşme geçmek4=new Sözleşme();
+            geçmek4.Show(); 
+            this.Hide();
+        }
     }
 }

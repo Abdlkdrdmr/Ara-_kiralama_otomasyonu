@@ -46,10 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Araç_EKLE_SİL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Araç_EKLE_SİL.Designer.cs">
+      <DependentUpon>Araç_EKLE_SİL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Araç_KİRALAMADataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Araç_KİRALAMADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sözleşme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sözleşme.Designer.cs">
+      <DependentUpon>Sözleşme.cs</DependentUpon>
     </Compile>
     <Compile Include="Müşteri_Lİstele.cs">
       <SubType>Form</SubType>
@@ -79,6 +91,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Anasayfa.resx">
       <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Araç_EKLE_SİL.resx">
+      <DependentUpon>Araç_EKLE_SİL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sözleşme.resx">
+      <DependentUpon>Sözleşme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Giriş_Ekranı.resx">
       <DependentUpon>Giriş_Ekranı.cs</DependentUpon>
